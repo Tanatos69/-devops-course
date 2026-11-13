@@ -1,0 +1,12 @@
+# Spring/Maven build output (big and rebuildable)
+target/
+# Node libraries (reinstalled with npm install)
+node_modules/
+# Python leftovers
+__pycache__/
+.venv/
+# Secrets must NEVER go to GitHub
+.env
+# Editor/OS files
+.idea/
+Thumbs.db
